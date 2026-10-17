@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-label="Developed by Syed Muhammad Tayyab">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.5" stop-color="#1b1464"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 40 C 200 0, 400 80, 640 40 S 1080 0, 1280 40 V140 H0 Z" fill="url(#fbg)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0 40 C 200 0, 400 80, 640 40 S 1080 0, 1280 40 V140 H0 Z;
+              M0 40 C 200 80, 400 0, 640 40 S 1080 80, 1280 40 V140 H0 Z;
+              M0 40 C 200 0, 400 80, 640 40 S 1080 0, 1280 40 V140 H0 Z"/>
+  </path>
+  <text x="640" y="88" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Developed by Syed Muhammad Tayyab</text>
+  <text x="640" y="118" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#a5f3fc">Built with care for the developer community</text>
+</svg>

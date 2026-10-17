@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📘 Read the contributing guide first
+    url: https://github.com/Syed-Muhammad-Tayyab/Public-APIs/blob/main/CONTRIBUTING.md
+    about: Formatting rules and accepted values for every column

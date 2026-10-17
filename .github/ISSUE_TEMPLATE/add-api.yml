@@ -1,0 +1,52 @@
+name: 🚀 Suggest a new API
+description: Propose a free or public API to add to the list
+title: "Add <Api-name> API"
+labels: ["new-api"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: API name
+      description: Without a TLD and without the word "API" at the end
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Documentation link
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One sentence, max 100 characters
+    validations:
+      required: true
+  - type: dropdown
+    id: auth
+    attributes:
+      label: Auth
+      options: [No, apiKey, OAuth, X-Mashape-Key, User-Agent]
+    validations:
+      required: true
+  - type: dropdown
+    id: https
+    attributes:
+      label: HTTPS
+      options: ["Yes", "No"]
+    validations:
+      required: true
+  - type: dropdown
+    id: cors
+    attributes:
+      label: CORS
+      options: ["Yes", "No", Unknown]
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+    validations:
+      required: true

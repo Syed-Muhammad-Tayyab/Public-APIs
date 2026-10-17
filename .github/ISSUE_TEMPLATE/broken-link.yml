@@ -1,0 +1,18 @@
+name: 🔗 Report a broken or dead API
+description: A link in the list no longer works or an API shut down
+title: "Broken: <Api-name>"
+labels: ["broken-link"]
+body:
+  - type: input
+    id: api
+    attributes:
+      label: Which API?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong?
+      description: Dead link, shut down, now paid-only, changed auth, etc.
+    validations:
+      required: true
